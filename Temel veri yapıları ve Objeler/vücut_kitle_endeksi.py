@@ -1,0 +1,5 @@
+print("Aşşağıdaki talimatlar yardımı ile vücut kitle endeksinizini bulabilirsiniz.\n")
+print("Lütfen istenilen bilgileri giriniz.\n")
+kilo= float(input("Lütfen kilonuzu giriniz(örn:83.4 kg):"))
+boy= float(input("Lütfen boyunuzu giriniz(örn:1.83 m):"))
+print("Vücut Kitle Endeksiniz: {}" .format(kilo/(boy**2)))
